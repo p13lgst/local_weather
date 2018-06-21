@@ -29,11 +29,11 @@ $("document").ready(function () {
           var button = this;
           if(celcius) {
             $("#temp").html(tempF + " &#x2109;");
-            $("#changeUnit").val("Change to Celcius");
+            $("#changeUnit").text("Change to Celcius");
             celcius = false;
           } else {
             $("#temp").html(tempC + " &#x2103;");
-            console.log($("#changeUnit").val());
+            $("#changeUnit").text("Change to Farenheit");
             celcius = true;
           }
         });
