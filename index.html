@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="jumbotron">
+        <h1 id="appName">Local Weather</h1>
+        <hr>
+        <h2 id="loading"><i class="fa fa-spinner fa-pulse"></i> Loading</h2>
+        <h2 id="error"></h2>
+        <div id="weather">
+          <h2 id="main"></h2>
+          <h3><img id="icon"><span id="temp"></span></h3>
+          <button id="changeUnit" type="button" class="btn btn-success"></button>
+          <h2 id="location"></h2>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
